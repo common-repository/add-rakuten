@@ -1,0 +1,56 @@
+.rakuten_group_item:after{content:"";display:block;height:0;clear:both;visibility:hidden}
+.rakuten_group_item{display:inline-block}
+.rakuten_group_item{display:block}
+
+.rakuten_item { 
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.rakuten_item .img-container {
+	display: block;
+	text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+.rakuten_item .img-container img {
+	height: 200px;
+	width: auto;
+	display: inline-block;
+	border: inherit;
+	-webkit-box-shadow: inherit;
+    box-shadow: inherit;
+}
+
+.rakuten_item dl {
+	width: 100%;	
+}
+
+.rakuten_item dl dt {
+	padding: 6px 10px;
+	font-size: 13px;
+	color: #555;
+	font-weight: inherit;
+	/* white-space:nowrap;
+	text-overflow: ellipsis;
+	overflow-x: hidden; */
+}
+
+.rakuten_item dd {
+	text-align: center;
+}
+
+.rakuten_item_name {
+	transition: height 0.5s ease-out;
+}
+
+@media screen and (min-width: 48em) {
+	
+	.rakuten_item {
+		width: calc(50% - 10px);
+		float: left;
+		margin-right: 10px;
+	}
+
+}
